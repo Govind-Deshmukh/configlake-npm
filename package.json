@@ -12,16 +12,21 @@
     "config",
     "configuration",
     "secrets",
-    "management"
+    "management",
+    "config manager",
+    "config lake",
+    "configlake",
+    "config management",
+    "config management tool"
   ],
   "author": {
-    "name": "Govind",
-    "email": "govind@example.com"
+    "name": "Govind Deshmukh",
+    "email": "govind.ub47@gmail.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/govind-deshmukh/configlake-npm.git"
+    "url": "https://github.com/Govind-Deshmukh/configlake-npm.git"
   },
   "dependencies": {
     "axios": "^1.6.0"
