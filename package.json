@@ -1,0 +1,40 @@
+{
+  "name": "configlake",
+  "version": "1.0.0",
+  "description": "Simple Node.js client for Config Lake - fetch and decrypt configurations and secrets",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "config",
+    "configuration",
+    "secrets",
+    "management"
+  ],
+  "author": {
+    "name": "Govind",
+    "email": "govind@example.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/govind-deshmukh/configlake-npm.git"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "lib/**/*",
+    "README.md"
+  ]
+}
