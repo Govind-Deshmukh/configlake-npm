@@ -1,6 +1,6 @@
 {
   "name": "configlake",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple Node.js client for Config Lake - fetch and decrypt configurations and secrets",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
