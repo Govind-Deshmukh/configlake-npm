@@ -29,7 +29,8 @@
     "url": "https://github.com/Govind-Deshmukh/configlake-npm.git"
   },
   "dependencies": {
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "configlake": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

@@ -3,7 +3,7 @@
  * Simple functions to fetch and decrypt configurations and secrets
  */
 
-import axios from 'axios';
+const axios = require('axios');
 
 const version = '1.0.0';
 
