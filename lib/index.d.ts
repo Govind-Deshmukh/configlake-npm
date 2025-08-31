@@ -1,24 +1,14 @@
-/**
- * Config Lake - Node.js Client
- * Simple functions to fetch and decrypt configurations and secrets
- */
-declare const version = "1.0.0";
-/**
- * Get plain-text configurations
- */
-export declare function getConfig(apiUrl: string, token: string, projectId: number, environment: string): Promise<Record<string, string>>;
-/**
- * Get decrypted secrets
- */
-export declare function getSecrets(apiUrl: string, token: string, projectId: number, environment: string): Promise<Record<string, string>>;
-/**
- * Get both configurations and decrypted secrets
- */
-export declare function getAllDetails(apiUrl: string, token: string, projectId: number, environment: string): Promise<{
+interface ConfigLakeResponse {
     configs: Record<string, string>;
     secrets: Record<string, string>;
-    project_id: number;
-    environment: string;
-}>;
-export { version };
+}
+export declare const getConfig: (baseUrl: string, token: string, projectId: number, environment: string) => Promise<Record<string, string>>;
+export declare const getSecrets: (baseUrl: string, token: string, projectId: number, environment: string) => Promise<Record<string, string>>;
+export declare const getAllDetails: (baseUrl: string, token: string, projectId: number, environment: string) => Promise<ConfigLakeResponse>;
+declare const _default: {
+    getConfig: (baseUrl: string, token: string, projectId: number, environment: string) => Promise<Record<string, string>>;
+    getSecrets: (baseUrl: string, token: string, projectId: number, environment: string) => Promise<Record<string, string>>;
+    getAllDetails: (baseUrl: string, token: string, projectId: number, environment: string) => Promise<ConfigLakeResponse>;
+};
+export default _default;
 //# sourceMappingURL=index.d.ts.map
